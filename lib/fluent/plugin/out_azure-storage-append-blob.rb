@@ -27,7 +27,6 @@ module Fluent
       config_param :format, :string, :default => DEFAULT_FORMAT_TYPE
       config_param :time_slice_format, :string, :default => '%Y%m%d'
   
-      DEFAULT_FORMAT_TYPE = "out_file"
       AZURE_BLOCK_SIZE_LIMIT = 4 * 1024 * 1024 - 1
   
       config_section :format do
